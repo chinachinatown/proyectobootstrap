@@ -1,0 +1,42 @@
+.header{
+    background-color: #FFB6C1;
+}
+.main{
+    background-color: whitesmoke;
+}
+.footer{
+    background-color: #d3d3d3;
+}
+.mainNosotros{
+    background-color: #DDA0DD;
+}
+.nav{
+    background-color: black;
+}
+.bordes{
+    border: solid 10px violet;
+}
+ul{
+    list-style-type: none;
+}
+.bienvenida{
+    color: rgb(116 7 116)
+}
+.textoInicial{
+    color: #000080
+}
+.portfolioCuadros{
+    color: #008B8B
+}
+.productos{
+    color: #FF1493;
+}
+.tecnica{
+    color: midnightblue;
+}
+.nosotros{
+    color: indigo;
+}
+.span{
+    text-decoration: none;
+}
