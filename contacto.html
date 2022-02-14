@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <!-- REDES SOCIALES -->
-        <!-- No supe como hacer las redes sociales -->
+        <!-- No sé como hacer las redes sociales -->
         <div>
             <a href="">
                 <img src="" alt="">
@@ -31,24 +31,34 @@
             </a>
         </div>
         <!-- BARRA DE BÚSQUEDA -->
-        <form action="" class="position-absolute top-0 end-0">
+                <!-- No la puedo hacer responsive para tamaño smartphone -->
+        <form action="" class="position-absolute top-0 end-0 mt-5 me-2">
             <input type="Search" placeholder=" Buscar">
             <input type="Submit" value="Buscar">
         </form>
         <!-- LOGO -->
         <div>
             <a href="index.html">
-                <img src="img/logo.png" class="img-thumbnail rounded mx-auto d-block mb-5" alt="Logo de Wadalhub">
+                <img src="img/logo.png" class="img-thumbnail rounded mx-auto d-block mb-5 mt-4 border border-dark" alt="Logo de Wadalhub">
             </a>
         </div>
         <!-- MENÚ -->
-        <nav class="nav container-fluid pb-5">
-            <span class="navbar-brand"><a href="index.html" class="span"> Inicio</a></span>
-            <span class="navbar-brand"><a href="portfolio.html" class="span"> Portfolio</a></span>
-            <span class="navbar-brand"><a href="productos.html" class="span"> Productos</a></span>
-            <span class="navbar-brand"><a href="nosotros.html" class="span"> Nosotros</a></span>
-            <span class="navbar-brand"><a href="contacto.html" class="span"> Contacto</a></span>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark gradLineal">
+            <div class="container-fluid pb-3 pt-1">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                  <a class="nav-link active pe-5" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link active pe-5" aria-current="page" href="portfolio.html">Portfolio</a>
+                  <a class="nav-link active pe-5" aria-current="page" href="productos.html">Productos</a>
+                  <a class="nav-link active pe-5" aria-current="page" href="nosotros.html">Nosotros</a>
+                  <a class="nav-link active pe-5" aria-current="page" href="contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>  
     </header>
     <main class="main pt-5 pb-5 ">
         <!-- FORMULARIO DE CONTACTO -->
@@ -57,13 +67,15 @@
             <input type="text" placeholder="Nombre" class="form-label col-md-6 offset-md-3"> <br>
             <input type="email" placeholder="Email" class="form-label col-md-6 offset-md-3"> <br>
             <input type="text" placeholder="Teléfono" class="form-label col-md-6 offset-md-3" > <br>
-            <textarea name="mensaje" cols="30" rows="10" class="form-label col-md-6 offset-md-3"></textarea> <br>
+            <textarea name="mensaje" cols="30" rows="10" class="form-label col-md-6 offset-md-3 "></textarea> <br>
             <!-- BOTÓN -->
-            <input type="submit" value="Enviar" class="form-label col-md-6 offset-md-3">
+            <!-- No pude achicar el botón, no sé como hacerlo -->
+            <input type="submit" value="Enviar" class="form-label col-md-6 offset-md-3 btn btn-secondary btn-sm">
         </form>
     </main>
     <footer class="footer pb-2 ">
         <!-- MENÚ FOOTER -->
+            <!-- No sé ponerlo horizontal y centrado -->
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
@@ -72,6 +84,7 @@
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
         <!-- REDES SOCIALES FOOTER -->
+        <!-- No sé como hacer las redes -->
         <div>
             <a href="">
                 <img src="" alt="">
@@ -86,7 +99,7 @@
                 <img src="" alt="">
             </a>
         </div>
-        <div class="text-end">
+        <div class="text-end mb-1">
             &copy; Copyright-2022. Todos los derechos reservados
         </div>
     </footer>

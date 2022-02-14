@@ -10,9 +10,6 @@
 .mainNosotros{
     background-color: #DDA0DD;
 }
-.nav{
-    background-color: black;
-}
 .bordes{
     border: solid 10px violet;
 }
@@ -20,7 +17,7 @@ ul{
     list-style-type: none;
 }
 .bienvenida{
-    color: rgb(116 7 116)
+    color: rgb(116 7 116);
 }
 .textoInicial{
     color: #000080
@@ -30,13 +27,44 @@ ul{
 }
 .productos{
     color: #FF1493;
+    font-family: 'Dosis', sans-serif;
 }
 .tecnica{
     color: midnightblue;
+    font-family: 'Saira Condensed', sans-serif;
 }
 .nosotros{
     color: indigo;
+    font-family: 'Roboto Mono', monospace;
 }
 .span{
     text-decoration: none;
+}
+h1{
+    font-family: 'Fjalla One', sans-serif;
+}
+.textoInicial{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.gradLineal{
+    background-image: linear-gradient(#FAA6B3,#753565,black);
+}
+/* ANIMACIONES */
+
+.textoAnimado{
+    animation-name: texto;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+}
+/* KEYFRAMES */
+@keyframes texto{
+    from{
+        transform: translate(-200px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
 }
